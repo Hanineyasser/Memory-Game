@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+div h1 {
+    font-style: italic;
+    font-weight: bold;
+    line-height: 100%;
+    text-align: center;
+}
+
+div #timer {
+    font-size: 1.2em;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+div #game-board {
+    display: grid;
+    grid-template-columns: repeat(4, 60px);
+    gap: 10px;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+div #submit-btn {
+    display: block;
+    margin: 0 auto;
+}
+
+/* div #score-view {
+    text-align: center;
+}
+
+div #score {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+div #rating {
+    font-size: 2em;
+} */
