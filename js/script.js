@@ -93,6 +93,7 @@ function endGame() {
     showScore();
 }
 
+
 function showScore() {
     scoreView.style.display = "block";
     let baseMoves = cards.length / 2; // 8 pairs = 8 moves minimum
