@@ -16,6 +16,12 @@ div #timer {
     padding-bottom: 10px;
 }
 
+div #moves {
+    font-size: 1.2em;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
 div #game-board {
     display: grid;
     grid-template-columns: repeat(4, 60px);
@@ -29,11 +35,22 @@ div #submit-btn {
     margin: 0 auto;
 }
 
-/* div #score-view {
+div #score-view {
     text-align: center;
 }
 
-div #score {
+div #resultMessage {
+    text-align: center;
+    margin: 20px auto;
+    width: 550px;
+}
+
+div #restart-btn {
+    display: none;
+    margin: 10px auto;
+}
+
+/* div #score {
     font-size: 2em;
     font-weight: bold;
 }
